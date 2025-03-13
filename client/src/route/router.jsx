@@ -68,6 +68,7 @@ import WidgetsTables from "../pages/widgets-tables";
 import WidgetsCharts from "../pages/widgets-charts";
 import WidgetsStatistics from "../pages/widgets-statistics";
 import WidgetsMiscellaneous from "../pages/widgets-miscellaneous";
+import CountryMaster from "@/components/MasterPages/CountryMaster.jsx";
 
 export const router = createBrowserRouter([
     {
@@ -172,20 +173,25 @@ export const router = createBrowserRouter([
             },
             {
                 path: "/widgets/charts",
-                element: <WidgetsCharts/>
+                element: <WidgetsCharts />
             },
             {
                 path: "/widgets/statistics",
-                element: <WidgetsStatistics/>
+                element: <WidgetsStatistics />
             },
             {
                 path: "/widgets/miscellaneous",
-                element: <WidgetsMiscellaneous/>
+                element: <WidgetsMiscellaneous />
             },
             {
                 path: "/help/knowledgebase",
                 element: <HelpKnowledgebase />
             },
+            {
+                path: '/CountryMaster',
+                element: <CountryMaster />
+
+            }
 
         ]
     },

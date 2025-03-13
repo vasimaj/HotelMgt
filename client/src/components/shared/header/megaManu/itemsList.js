@@ -6,6 +6,9 @@ export const componentsList = [
                 comp_name: "CRM",
             },
             {
+                comp_nam: "Masters",
+            },
+            {
                 comp_name: "Analytics",
             },
             {
@@ -240,34 +243,34 @@ export const authenticationPageList = [
 
 export const authenticationTabSlider = [
     {
-        src:"/images/banner/6.jpg",
-        title:"Shopify eCommerce Store",
-        description:"Some representative placeholder content for the first slide."
+        src: "/images/banner/6.jpg",
+        title: "Shopify eCommerce Store",
+        description: "Some representative placeholder content for the first slide."
     },
     {
-        src:"/images/banner/5.jpg",
-        title:"iOS Apps Development",
-        description:"Some representative placeholder content for the second slide."
+        src: "/images/banner/5.jpg",
+        title: "iOS Apps Development",
+        description: "Some representative placeholder content for the second slide."
     },
     {
-        src:"/images/banner/4.jpg",
-        title:"Figma Dashboard Design",
-        description:"Some representative placeholder content for the third slide."
+        src: "/images/banner/4.jpg",
+        title: "Figma Dashboard Design",
+        description: "Some representative placeholder content for the third slide."
     },
     {
-        src:"/images/banner/3.jpg",
-        title:"React Dashboard Design",
-        description:"Some representative placeholder content for the fourth slide."
+        src: "/images/banner/3.jpg",
+        title: "React Dashboard Design",
+        description: "Some representative placeholder content for the fourth slide."
     },
     {
-        src:"/images/banner/2.jpg",
-        title:"Standup Team Meeting",
-        description:"Some representative placeholder content for the five slide."
+        src: "/images/banner/2.jpg",
+        title: "Standup Team Meeting",
+        description: "Some representative placeholder content for the five slide."
     },
     {
-        src:"/images/banner/1.jpg",
-        title:"Zoom Team Meeting",
-        description:"Some representative placeholder content for the six slide."
+        src: "/images/banner/1.jpg",
+        title: "Zoom Team Meeting",
+        description: "Some representative placeholder content for the six slide."
     },
 
 ]
